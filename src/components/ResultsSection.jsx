@@ -29,15 +29,6 @@ const resultsContent = {
           'Round 5: Heat 1 P6, Heat 2 P9, Final P6',
         ],
       },
-      {
-        championship: 'IAME Series Mexico 2025',
-        category: 'X30 Senior',
-        rounds: [
-          'Heat 1: P8',
-          'Heat 2: P9',
-          'Heat 3: P19',
-        ],
-      },
     ],
   },
   ES: {
@@ -64,15 +55,6 @@ const resultsContent = {
           'Round 3: Heat 1 P3, Heat 2 P2, Final P5',
           'Round 4: Heat 1 P6, Heat 2 P3, Final P4',
           'Round 5: Heat 1 P6, Heat 2 P9, Final P6',
-        ],
-      },
-      {
-        championship: 'IAME Series Mexico 2025',
-        category: 'X30 Senior',
-        rounds: [
-          'Heat 1: P8',
-          'Heat 2: P9',
-          'Heat 3: P19',
         ],
       },
     ],
