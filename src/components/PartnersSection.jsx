@@ -1,6 +1,8 @@
 import { useLanguage } from '../context/LanguageContext';
 import partnersImg from '../../public/images/partners.jpg';
 import partner2 from '../../public/images/partner_2.jpg';
+import manoloLogo from '../../public/images/manolo.jpeg';
+import aimotorLogo from '../../public/images/aimotor.jpeg';
 import './PartnersSection.css';
 
 const partnerTranslations = {
@@ -10,7 +12,7 @@ const partnerTranslations = {
       role: 'KARTING TEAM',
       description:
         'Manolo Racing is my karting team. They lead race-day strategy, setup refinement, and full trackside support.',
-      logo: '/images/manolo.jpeg',
+      logo: manoloLogo,
       alt: 'Manolo Racing logo',
     },
     {
@@ -18,7 +20,7 @@ const partnerTranslations = {
       role: 'TECHNICAL PARTNER',
       description:
         'AiMotor is my technical partner, providing performance engineering, data analysis, and technical development support.',
-      logo: '/images/aimotor.jpeg',
+      logo: aimotorLogo,
       alt: 'AiMotor logo',
     },
   ],
@@ -28,7 +30,7 @@ const partnerTranslations = {
       role: 'EQUIPO DE KARTING',
       description:
         'Manolo Racing es mi equipo de karting. Dirigen la estrategia del día de carrera, refinamiento de configuración y apoyo completo en la pista.',
-      logo: '/images/manolo.jpeg',
+      logo: manoloLogo,
       alt: 'Logo de Manolo Racing',
     },
     {
@@ -36,7 +38,7 @@ const partnerTranslations = {
       role: 'SOCIO TÉCNICO',
       description:
         'AiMotor es mi socio técnico, proporcionando ingeniería de rendimiento, análisis de datos y apoyo técnico de desarrollo.',
-      logo: '/images/aimotor.jpeg',
+      logo: aimotorLogo,
       alt: 'Logo de AiMotor',
     },
   ],
