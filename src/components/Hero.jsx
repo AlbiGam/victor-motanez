@@ -1,5 +1,6 @@
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../translations';
+import mainPicture from '../../public/images/main_picture.jpg';
 import './Hero.css';
 
 export default function Hero() {
@@ -12,7 +13,7 @@ export default function Hero() {
       <div className="hero-image-wrap">
         <img
           className="hero-image"
-          src="/images/main_picture.jpg"
+          src={mainPicture}
           alt="Victor Alvarez racing"
         />
         <div className="hero-image-fade" />

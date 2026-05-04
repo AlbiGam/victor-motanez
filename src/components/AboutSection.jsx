@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../translations';
+import aboutMe from '../../public/images/about_me.jpg';
 import './AboutSection.css';
 
 export default function AboutSection() {
@@ -149,7 +150,7 @@ export default function AboutSection() {
         <aside className="about-card" aria-label="Driver quick profile">
           <div className="about-card-image-wrap">
             <img
-              src="/images/about_me.jpg"
+              src={aboutMe}
               alt="Victor Montanez karting"
               className="about-card-image"
             />

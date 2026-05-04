@@ -1,4 +1,5 @@
 import { useLanguage } from '../context/LanguageContext';
+import contactImg from '../../public/images/contact.jpg';
 import './ContactSection.css';
 
 export default function ContactSection() {
@@ -41,7 +42,7 @@ export default function ContactSection() {
 
         <article className="contact-image-card" aria-label={language === 'EN' ? 'Victor contact visual' : 'Visual de contacto de Víctor'}>
           <img
-            src="/images/contact.jpg"
+            src={contactImg}
             alt={language === 'EN' ? 'Victor in racing gear' : 'Víctor en equipo de carreras'}
             className="contact-image"
           />

@@ -1,4 +1,6 @@
 import { useLanguage } from '../context/LanguageContext';
+import partnersImg from '../../public/images/partners.jpg';
+import partner2 from '../../public/images/partner_2.jpg';
 import './PartnersSection.css';
 
 const partnerTranslations = {
@@ -55,7 +57,7 @@ export default function PartnersSection() {
         <div className="partners-layout">
           <article className="partners-visual-card" aria-label={language === 'EN' ? 'Partners in action' : 'Asociados en acción'}>
             <img
-              src="/images/partners.jpg"
+              src={partnersImg}
               alt={language === 'EN' ? 'Victor with partner branding' : 'Víctor con marca de asociado'}
               className="partners-visual"
             />
@@ -78,7 +80,7 @@ export default function PartnersSection() {
 
             <div className="partners-fill-image-wrap" aria-label="Technical partner in action">
               <img
-                src="/images/partner_2.jpg"
+                src={partner2}
                 alt="AiMotor technical collaboration"
                 className="partners-fill-image"
               />

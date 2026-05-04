@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../translations';
+import logo from '../../public/images/logo.png';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -16,7 +17,7 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="navbar-inner">
           <div className="navbar-brand">
-            <img className="brand-logo" src="/images/logo.png" alt="Victor Montañez logo" />
+            <img className="brand-logo" src={logo} alt="Victor Montañez logo" />
             <div className="brand-socials">
               <a href="https://www.instagram.com/vic.mntnz27?igsh=aWVoanV3OXRleGYz&utm_source=qr" target="_blank" rel="noreferrer" aria-label="Instagram">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
