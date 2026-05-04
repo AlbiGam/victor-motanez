@@ -51,7 +51,6 @@
 .results-image-card {
   border-radius: 24px;
   overflow: hidden;
-  min-height: 100%;
   box-shadow: 0 14px 38px rgba(9, 25, 42, 0.14);
 }
 
