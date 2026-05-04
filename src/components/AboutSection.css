@@ -1,0 +1,266 @@
+.about-section {
+  background: #ffffff;
+  padding: 66px 0 86px;
+}
+
+.about-inner {
+  width: min(1200px, calc(100% - 64px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(360px, 0.92fr);
+  gap: 34px;
+  align-items: start;
+}
+
+.about-title {
+  margin: 0 0 24px;
+  display: flex;
+  flex-direction: column;
+  line-height: 0.88;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 900;
+  font-size: clamp(38px, 4.8vw, 62px);
+  letter-spacing: 0.01em;
+  color: #0f1d2a;
+}
+
+.about-copy p {
+  margin: 0 0 18px;
+  max-width: 760px;
+  font-family: 'Barlow', sans-serif;
+  font-size: clamp(16px, 1.15vw, 19px);
+  line-height: 1.45;
+  color: #3e4b59;
+}
+
+.about-read-more {
+  margin-top: 4px;
+  padding: 10px 20px;
+  border: 1.5px solid #c6b0a7;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #1f2c39;
+  font-family: 'Barlow', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  cursor: pointer;
+  transition: background 0.25s, color 0.25s, border-color 0.25s;
+}
+
+.about-read-more:hover {
+  background: #e02020;
+  border-color: #e02020;
+  color: #ffffff;
+}
+
+.about-card {
+  background: #fff;
+  border: 1px solid #e6eaee;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 10px 32px rgba(15, 29, 42, 0.12);
+}
+
+.about-card-image-wrap {
+  aspect-ratio: 16 / 9;
+  border-top: 3px solid #e02020;
+  background: #ffffff;
+}
+
+.about-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 38%;
+  display: block;
+}
+
+.about-card-body {
+  padding: 20px 20px 18px;
+}
+
+.about-card-name {
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+  font-size: clamp(24px, 2.4vw, 34px);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 0.92;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.name-dark {
+  color: #0f1d2a;
+}
+
+.name-red {
+  color: #e02020;
+}
+
+/* Mobile Responsive */
+@media (max-width: 1024px) {
+  .about-inner {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .about-title {
+    font-size: clamp(32px, 5.5vw, 52px);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 48px 0 64px;
+  }
+
+  .about-inner {
+    width: min(1200px, calc(100% - 32px));
+    gap: 20px;
+  }
+
+  .about-title {
+    font-size: clamp(28px, 6vw, 44px);
+    margin: 0 0 16px;
+  }
+
+  .about-copy p {
+    font-size: clamp(14px, 3.5vw, 17px);
+    margin: 0 0 12px;
+  }
+
+  .about-card-name {
+    font-size: clamp(20px, 4vw, 28px);
+  }
+
+  .partner-role {
+    font-size: 9px;
+  }
+
+  .about-card-body {
+    padding: 16px 16px 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-section {
+    padding: 32px 0 48px;
+  }
+
+  .about-inner {
+    width: min(1200px, calc(100% - 24px));
+  }
+
+  .about-title {
+    font-size: clamp(24px, 7vw, 36px);
+    margin: 0 0 12px;
+  }
+
+  .about-copy p {
+    font-size: clamp(13px, 3.5vw, 15px);
+    line-height: 1.4;
+    margin: 0 0 10px;
+  }
+
+  .about-read-more {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
+
+  .about-card {
+    border-radius: 16px;
+  }
+
+  .about-card-image-wrap {
+    aspect-ratio: 16 / 9;
+  }
+
+  .about-card-name {
+    font-size: clamp(18px, 4vw, 24px);
+    gap: 6px;
+  }
+}
+}
+
+.about-card-meta {
+  margin: 7px 0 14px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  color: #788696;
+}
+
+.about-stats-grid {
+  border-top: 1px solid #e6eaee;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-stat {
+  padding: 12px 10px 11px;
+  border-bottom: 1px solid #e6eaee;
+}
+
+.about-stat:nth-child(odd) {
+  border-right: 1px solid #e6eaee;
+}
+
+.about-stat:nth-last-child(-n + 2) {
+  border-bottom: 0;
+}
+
+.stat-value {
+  display: block;
+  font-family: 'Barlow', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 0.9;
+  color: #0f1d2a;
+}
+
+.stat-label {
+  display: block;
+  margin-top: 6px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: #778596;
+}
+
+@media (max-width: 1060px) {
+  .about-inner {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .about-copy p {
+    font-size: clamp(16px, 2vw, 19px);
+  }
+
+  .about-card {
+    max-width: 680px;
+  }
+}
+
+@media (max-width: 640px) {
+  .about-section {
+    padding: 58px 0 72px;
+  }
+
+  .about-inner {
+    width: min(1200px, calc(100% - 28px));
+  }
+
+  .about-card-name {
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+  }
+
+  .stat-value {
+    font-size: 34px;
+  }
+}
