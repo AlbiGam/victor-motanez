@@ -3,7 +3,7 @@ export const translations = {
     navbar: {
       about: 'ABOUT',
       partners: 'PARTNERS',
-      calendar: 'CALENDAR',
+      results: 'RESULTS',
       contact: 'CONTACT',
     },
     hero: {
@@ -28,7 +28,7 @@ export const translations = {
     navbar: {
       about: 'ACERCA DE',
       partners: 'ASOCIADOS',
-      calendar: 'CALENDARIO',
+      results: 'RESULTADOS',
       contact: 'CONTACTO',
     },
     hero: {

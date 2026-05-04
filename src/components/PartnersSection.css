@@ -148,6 +148,9 @@
 .partners-fill-image {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 /* Mobile Responsive */
@@ -298,10 +301,6 @@
   .partners-fill-image-wrap {
     min-height: 140px;
   }
-}
-  object-fit: cover;
-  object-position: center;
-  display: block;
 }
 
 @media (max-width: 1080px) {

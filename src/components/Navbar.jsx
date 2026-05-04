@@ -32,7 +32,7 @@ export default function Navbar() {
           <ul className="navbar-links">
             <li><a href="#about" className="nav-link active">{t.navbar.about}</a></li>
             <li><a href="#partners" className="nav-link">{t.navbar.partners}</a></li>
-            <li><a href="#calendar" className="nav-link">{t.navbar.calendar}</a></li>
+            <li><a href="#results" className="nav-link">{t.navbar.results}</a></li>
             <li><a href="#contact" className="nav-link">{t.navbar.contact}</a></li>
           </ul>
 
@@ -59,7 +59,7 @@ export default function Navbar() {
         <ul className="sidebar-links">
           <li><a href="#about" className="sidebar-link" onClick={closeMenu}>{t.navbar.about}</a></li>
           <li><a href="#partners" className="sidebar-link" onClick={closeMenu}>{t.navbar.partners}</a></li>
-          <li><a href="#calendar" className="sidebar-link" onClick={closeMenu}>{t.navbar.calendar}</a></li>
+          <li><a href="#results" className="sidebar-link" onClick={closeMenu}>{t.navbar.results}</a></li>
           <li><a href="#contact" className="sidebar-link" onClick={closeMenu}>{t.navbar.contact}</a></li>
         </ul>
       </aside>
